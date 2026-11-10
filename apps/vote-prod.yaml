@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: default
+  project: voting
   source:
     repoURL: https://github.com/gpperrier/votingapp-gitops.git
     targetRevision: main
